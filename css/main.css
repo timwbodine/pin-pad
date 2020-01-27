@@ -1,0 +1,113 @@
+html {
+  font-size: 62.5%; }
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box; }
+
+h1 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 600; }
+
+h2 {
+  font-family: 'Cabin', sans-serif;
+  font-weight: 400; }
+
+.pin-button {
+  padding: 2rem 2.5rem;
+  border: 0.2rem solid blue;
+  border-radius: 50%;
+  position: relative; }
+  .pin-button .pin-number {
+    position: absolute;
+    width: 4rem;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%); }
+
+.login-button {
+  display: inline-block;
+  padding: 2rem 8rem;
+  border: 0.2rem solid blue;
+  border-radius: 2rem;
+  position: relative;
+  background-color: blue; }
+  .login-button .login-text {
+    color: white;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%); }
+
+.pin-dots-box {
+  text-align: center;
+  margin-bottom: 2rem; }
+  .pin-dots-box .pin-dot {
+    display: inline-block;
+    border: 0.1rem solid black;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem; }
+
+body {
+  background-image: url("../img/login-bg-asset.png");
+  background-size: 100%; }
+
+.login-box {
+  margin: 0 auto;
+  display: block;
+  width: 38%;
+  height: 88vh;
+  margin-top: 5vh;
+  background-color: white; }
+  .login-box__logo-box {
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    width: 40%; }
+    .login-box__logo-box img {
+      width: 100%; }
+    .login-box__logo-box h1 {
+      text-align: center;
+      color: blue;
+      margin-top: -3.5rem; }
+    .login-box__logo-box h2 {
+      text-align: center; }
+  .login-box__pin-pad-box {
+    width: 50%;
+    margin: 2rem auto; }
+  .login-box__login-button-box {
+    text-align: center; }
+
+.row {
+  max-width: 114rem;
+  text-align: center;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 6rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 2rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 2rem) / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 2rem) / 3); }
+  .row .col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 2rem) / 3) + 2rem); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 2rem) / 4); }
+  .row .col-2-of-4 {
+    width: calc(2 * ((100% - 3 * 2rem) / 4) + 2rem); }
+  .row .col-3-of-4 {
+    width: calc(3 * ((100% - 3 * 2rem) / 4) + 2 * 2rem); }
