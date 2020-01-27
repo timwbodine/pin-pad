@@ -1,0 +1,16 @@
+{
+  "name": "pin_login",
+  "version": "1.0.0",
+  "description": "a pin login page",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.sass css/main.css -w"
+  },
+  "author": "timwbodine",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "live-server": "^1.2.1",
+    "node-sass": "^4.13.1"
+  }
+}
