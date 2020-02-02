@@ -4,10 +4,15 @@
     border: 0.2rem solid blue
     border-radius: 50%
     position: relative
+    &:active
+        background-color: blue
     .pin-number
         position: absolute
+        color: blue
         width: 4rem
         left: 50%
         top: 50%
         text-align: center
         transform: translate(-50%, -50%)
+        &:active
+            color: white

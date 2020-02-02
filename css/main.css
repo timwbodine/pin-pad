@@ -22,13 +22,18 @@ h2 {
   border: 0.2rem solid blue;
   border-radius: 50%;
   position: relative; }
+  .pin-button:active {
+    background-color: blue; }
   .pin-button .pin-number {
     position: absolute;
+    color: blue;
     width: 4rem;
     left: 50%;
     top: 50%;
     text-align: center;
     transform: translate(-50%, -50%); }
+    .pin-button .pin-number:active {
+      color: white; }
 
 .login-button {
   display: inline-block;
@@ -56,6 +61,9 @@ h2 {
     width: 1rem;
     height: 1rem; }
 
+.filled {
+  background-color: blue; }
+
 body {
   background-image: url("../img/login-bg-asset.png");
   background-size: 100%; }
@@ -64,7 +72,6 @@ body {
   margin: 0 auto;
   display: block;
   width: 38%;
-  height: 88vh;
   margin-top: 5vh;
   background-color: white; }
   .login-box__logo-box {
@@ -83,7 +90,8 @@ body {
     width: 50%;
     margin: 2rem auto; }
   .login-box__login-button-box {
-    text-align: center; }
+    text-align: center;
+    padding-bottom: 5vh; }
 
 .row {
   max-width: 114rem;
