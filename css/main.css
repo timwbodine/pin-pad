@@ -118,11 +118,17 @@ body {
   background-size: 100%;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
 .login-box {
   margin: 0 auto;
   display: block;
   width: 38%;
-  margin-top: 5vh;
   background-color: white;
 }
 @media (min-width: 75em) {
