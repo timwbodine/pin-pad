@@ -1,7 +1,18 @@
 html
     font-size: 62.5%
     //This defines one rem as 10px (assuming default is 16px)
-    
+    @include respond(big-desktop) 
+        font-size: 75% 
+
+    @include respond(tab-land) 
+        font-size: 62.5% 
+
+    @include respond(tab-port) 
+        font-size: 50%
+
+  
+
+ 
 *,
 *::after,
 *::before

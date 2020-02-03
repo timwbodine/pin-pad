@@ -1,6 +1,21 @@
 html {
   font-size: 62.5%;
 }
+@media (min-width: 75em) {
+  html {
+    font-size: 75%;
+  }
+}
+@media (max-width: 75em) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
 
 *,
 *::after,
@@ -110,10 +125,35 @@ body {
   margin-top: 5vh;
   background-color: white;
 }
+@media (min-width: 75em) {
+  .login-box {
+    width: 34%;
+  }
+}
+@media (max-width: 75em) {
+  .login-box {
+    width: 40%;
+  }
+}
+@media (max-width: 56.25em) {
+  .login-box {
+    width: 45%;
+  }
+}
+@media (max-width: 37.5em) {
+  .login-box {
+    width: 65%;
+  }
+}
 .login-box__logo-box {
   margin: 0 auto;
   margin-bottom: 4rem;
   width: 40%;
+}
+@media (max-width: 37.5em) {
+  .login-box__logo-box {
+    width: 50%;
+  }
 }
 .login-box__logo-box img {
   width: 100%;
@@ -129,6 +169,11 @@ body {
 .login-box__pin-pad-box {
   width: 50%;
   margin: 2rem auto;
+}
+@media (max-width: 37.5em) {
+  .login-box__pin-pad-box {
+    width: 60%;
+  }
 }
 .login-box__login-button-box {
   text-align: center;

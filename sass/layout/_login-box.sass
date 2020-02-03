@@ -4,11 +4,21 @@
     width: 38%
     margin-top: 5vh
     background-color: white
+    @include respond(big-desktop)
+        width: 34%
+    @include respond(tab-land)
+        width: 40%
+    @include respond(tab-port)
+        width: 45%
+    @include respond(phone)
+        width: 65%
     
     &__logo-box
         margin: 0 auto
         margin-bottom: 4rem
         width: 40%
+        @include respond(phone)
+            width: 50%
         img
             width: 100%
         h1
@@ -21,6 +31,9 @@
     &__pin-pad-box
         width: 50%
         margin: 2rem auto
+    
+        @include respond(phone)
+            width: 60%
 
     &__login-button-box
         text-align: center
