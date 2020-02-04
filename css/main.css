@@ -138,27 +138,12 @@ body {
 .login-box {
   margin: 0 auto;
   display: block;
-  width: 38%;
+  width: 40rem;
   background-color: white;
-}
-@media (min-width: 75em) {
-  .login-box {
-    width: 34%;
-  }
-}
-@media (max-width: 75em) {
-  .login-box {
-    width: 40%;
-  }
-}
-@media (max-width: 56.25em) {
-  .login-box {
-    width: 45%;
-  }
 }
 @media (max-width: 37.5em) {
   .login-box {
-    width: 60%;
+    width: 100%;
   }
 }
 .login-box__logo-box {
@@ -192,7 +177,7 @@ body {
 }
 @media (max-width: 37.5em) {
   .login-box__pin-pad-box {
-    width: 70%;
+    width: 60%;
   }
 }
 .login-box__login-button-box {
