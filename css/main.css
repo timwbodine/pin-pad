@@ -177,7 +177,7 @@ body {
 }
 @media (max-width: 37.5em) {
   .login-box__pin-pad-box {
-    width: 60%;
+    width: 20rem;
   }
 }
 .login-box__login-button-box {
