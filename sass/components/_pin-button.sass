@@ -1,14 +1,14 @@
 .pin-button
     display: block
-    border: 0.2rem solid #003366
+    border: 0.2rem solid #000066
     border-radius: 50%
     height: 5rem
     position: relative
     &:active
-        background-color: blue
+        background-color: #000066
     .pin-number
         position: absolute
-        color: #003366
+        color: #000066
         width: 4rem
         left: 50%
         top: 50%
@@ -18,7 +18,17 @@
             color: white
 .back-icon
     text-decoration: none
-    font-size: 1.5rem
-    color: #003366 
-    width: 100%
+    font-size: 2.0rem
+    color: #cccccc
+    position: absolute
     text-align: center
+    &:active
+        color: white
+    transform: translate(-50%, -50%)
+    left: 50%
+    top: 50%
+
+.back-button
+    height: 5rem
+    position: relative
+    display: block
