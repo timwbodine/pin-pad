@@ -179,6 +179,7 @@ body {
   width: 100%;
   font-size: 7rem;
   text-align: center;
+  padding-bottom: 1rem;
 }
 .login-box__logo-box h1 {
   text-align: center;
